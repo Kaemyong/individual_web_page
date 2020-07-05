@@ -1,0 +1,37 @@
+/*main.css*/
+*{
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body:not(#title){
+    font-size: 14px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header,section,footer,nav{
+    display: flex;
+}
+
+body{
+    background-color: #f3f2f0;
+}
+
+@media(max-width:1250px){ /*창 크기에 따라 옆 nav 사이즈 조정*/
+    #header_right,#footer_right,#section_right,#nav_right{
+        flex-shrink: 0;
+        flex-basis: 220px;
+    }
+}
+
+@media(min-width:1250px){
+    #header_right,#footer_right,#section_right,#nav_right{
+        flex-grow: 2;
+        flex-basis:0px;
+    }
+}

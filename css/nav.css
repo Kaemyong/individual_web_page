@@ -1,0 +1,35 @@
+nav{
+    height: 40px;
+    margin: 0 0 5px 0;
+}
+
+#nav_left{
+    flex-grow: 1;
+    flex-basis:0px;
+}
+
+#nav_mid{
+    flex-basis: 920px;
+    flex-shrink: 0;
+    border: 2px solid black;
+    border-radius: 13px;
+    background-color: #FFFFFF;
+}
+#nav_mid ul{
+    list-style: none;
+}
+
+#nav_mid ul li{
+    float: left;
+    padding: 5px 0 0 5px;
+}
+
+#nav_mid form{
+    float: left;
+    padding: 7px 0 0 7px;
+}
+
+#nav_Categoey{
+    float: right;
+    padding: 6px 6px 0 0;
+}

@@ -1,0 +1,37 @@
+#section_left{
+    flex-grow: 1;
+    flex-basis:0px;
+}
+
+#section_mid{
+    border: 3px solid #777777;
+    border-radius: 13px;
+    flex-basis: 920px;
+    flex-shrink: 0;
+    background-color: #FFFFFF;
+}
+
+#section_nav{
+    margin: 15px 0 0 20px;
+    width: 200px;
+}
+
+#section_nav ul li{
+    margin-top: 5px;
+}
+
+#section_nav h4{
+    padding-bottom: 5px;
+    border-bottom: solid 1px gray;
+}
+
+#section_mid table{
+    margin: 7px 7px 7px 7px;
+    width: 905px;
+    border-collapse: collapse;
+}
+
+#description_screen{
+    width: 920px;
+    height: 100px;
+}

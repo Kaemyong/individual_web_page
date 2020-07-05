@@ -1,0 +1,26 @@
+footer{
+    margin: 0 0 0 0;
+}
+
+
+#footer_left{
+    flex-grow: 1;
+}
+
+#footer_mid{
+    flex-basis: 920px;
+    flex-shrink: 0;
+}
+
+#footer_mid ul li{
+    float: left;
+    margin: 10px 2px 0 5px;
+}
+
+#footer_mid ul{
+    list-style-type: none;
+}
+
+#footer_style{
+    margin: 15px 0 0 20px;
+}
